@@ -158,7 +158,7 @@ function clickEventHandler(){
     if(!ispalindrome){
         var [cnt1, nextDate] = nextPalindromeDate(date);
 
-        outputDiv.innerText = 'The nearest palindrome date is ${nextDate.day}-${nextDate.month}-${nextDate.year}, you missed by ${cnt1} days.';
+        outputDiv.innerText = `The nearest palindrome date is ${nextDate.day}-${nextDate.month}-${nextDate.year}, you missed by ${cnt1} days.`;
     }
     else{
         outputDiv.innerText = 'Yay! Your birthday is palindrome!'
