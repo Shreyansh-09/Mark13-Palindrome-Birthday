@@ -134,7 +134,7 @@ function nextPalindromeDate(date){
 
         for(var i = 0; i < dateList.length; i++){
             if(dateList[i]){
-                return [cnt, nextDate];
+                return [cnt, nextdate];
             }
         }
         nextdate = nextDate(nextdate);
