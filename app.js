@@ -156,7 +156,7 @@ function clickEventHandler(){
         }
     }
     if(!ispalindrome){
-        var [cnt1, nextDate] = nextPalindromeDate(date);
+        var [cnt1, nextDate] = nextPalindromeDate(bday);
 
         outputDiv.innerText = `The nearest palindrome date is ${nextDate.day}-${nextDate.month}-${nextDate.year}, you missed by ${cnt1} days.`;
     }
