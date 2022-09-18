@@ -150,7 +150,7 @@ function clickEventHandler(){
     var dateList = palindromeCheckForAllDateFmt(dateStr);
     var ispalindrome = false;
     for(var idx = 0; idx < dateList.length; idx++){
-        if(dateList[i]){
+        if(dateList[idx]){
             ispalindrome = true;
             break;
         }
