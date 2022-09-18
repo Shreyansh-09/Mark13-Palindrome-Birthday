@@ -147,9 +147,9 @@ function clickEventHandler(){
                 month: Number(birthDate[1]),
                 year: Number(birthDate[0])}
     var dateStr = convertDateToString(bday);
-    var dateList = palindromeCheckForAllDateFmt(bday);
+    var dateList = palindromeCheckForAllDateFmt(dateStr);
     var ispalindrome = false;
-    for(var idx = 0; idx < palinCheck.length; idx++){
+    for(var idx = 0; idx < dateList.length; idx++){
         if(dateList[i]){
             ispalindrome = true;
             break;
